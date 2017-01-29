@@ -1,0 +1,164 @@
+
+.uppercase {
+	text-transform: uppercase;
+}
+
+.z-5{
+	-webkit-box-shadow: 0px 5px 25px 0px rgba(0,0,0,0.75);
+			-moz-box-shadow: 0px 5px 25px 0px rgba(0,0,0,0.75);
+						box-shadow: 0px 5px 25px 0px rgba(0,0,0,0.75);
+}
+
+.z-3{
+	-webkit-box-shadow: 0px 5px 15px 0px rgba(0,0,0,0.5);
+			-moz-box-shadow: 0px 5px 15px 0px rgba(0,0,0,0.5);
+						box-shadow: 0px 5px 15px 0px rgba(0,0,0,0.5);
+}
+
+.navbar-brand{
+	font-family: 'Courgette', cursive;
+	font-size: 32px;
+}
+
+#weather-wrapper{
+	margin-top: 24px;
+	
+	background-color: #006699;
+
+}
+
+.center {
+	
+	text-align: center;
+}
+
+#weather-wrapper {
+	padding: 24px;
+	background-color: #006699;
+	color: white;
+}
+
+.icon {
+	margin-top: 48px;
+	font-size: 86px;
+}
+
+.text{
+	font-family: 'Roboto', sans-serif;
+}
+
+.text.heading {
+	margin-top: 12px;
+	font-size: 48px;
+}
+
+.text.right {
+	text-align: right;
+}
+
+.text.left {
+	text-align: left;
+}
+
+.text.large {
+		font-size: 24px;
+}
+
+.description {
+	padding-top: 12px;
+}
+
+.text.medium {
+	font-size: 18px;
+}
+
+#weather-description {
+	margin-top: 24px;
+}
+
+.contrast {
+	background-color: rgba(255, 157, 0, 0.87);
+}
+
+.text-padding {
+	padding: 24px;
+}
+
+nav {
+	background-color: transparent !important;
+	border: none !important;
+}
+
+.text-intro {
+	font-family: 'Raleway', sans-serif;
+}
+
+.post {
+	margin-bottom: 18px;
+}
+
+.contrast-alternative {
+	background-color: rgba(230, 142, 0, 0.47);
+}
+
+.padding-18 {
+	padding: 18px;
+		
+}
+
+.no-pad-bot {
+	padding-bottom: 0;
+}
+
+
+
+.padding-4 {
+	padding: 4px;
+}
+
+#guest-book-wrapper {
+	padding-top: 24px;
+}
+
+.fab {
+	width: 56px;
+	height: 56px;
+	border-radius: 50%;
+	position: fixed;
+	bottom: 56px;
+	right: 56px;
+	background-color: #009dff;
+	border: none;
+}
+
+.centered {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+.z-1 {
+-webkit-box-shadow: 3px 6px 5px -5px rgba(0,0,0,0.5);
+-moz-box-shadow: 3px 6px 5px -5px rgba(0,0,0,0.5);
+box-shadow: 3px 6px 5px -5px rgba(0,0,0,0.5);
+}
+
+
+
+.v-align {
+	margin-top: 11.5px;
+	margin-left: 11.5px;
+}
+
+.modal-text {
+	max-width: 100%;
+	min-width: 100%;
+	border: none;
+	outline: none;
+}
+
+
+.modal-text.optional {
+	min-width: auto;
+	max-width: auto;
+}

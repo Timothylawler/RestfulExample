@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Consuming REST</title>
+	
+	<!-- bootstrap css -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css">
+	<!-- weather css -->
+	<link rel="stylesheet" href="style/weather-icons.min.css" type="text/css">
+	<!-- google fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Courgette|Raleway|Roboto" rel="stylesheet">
+	<!-- custom css -->
+	<link rel="stylesheet" href="style/style.css" type="text/css">
+</head>
+<body>
+
+	<nav class="navbar navbar-default container">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="index.html">Resting</a>
+			</div>
+
+			<div id="navbar" class="navbar-collapse collapse">
+				<ul class="nav navbar-nav">
+					<li class="active"><a href="index.html" class="text">Weather</a></li>
+					<li><a href="apistuff.html" class="text">APIStöff</a></li>
+				</ul>
+			</div><!--/.nav-collapse -->
+		</div><!--/.container-fluid -->
+	</nav>
+	
+	<section class="container">
+		<div class="row">
+			<div id="weather-wrapper" class="col-xs-6 col-xs-offset-3 center z-5">
+				<div id="weather-city" class="uppercase text large text-intro">
+					SUNDSVALL
+				</div>
+				<i id="weather-icon" class="wi wi-day-sunny icon"></i>
+				<div id="weather-current-temperature" class="text heading">
+					24c
+				</div>
+				
+				<div class="row">
+					<div id="weather-min-temperature" class="col-xs-6 text right">
+						Min 20c
+					</div>
+					<div id="weather-max-temperature" class="col-xs-6 text left">
+						Max 26c
+					</div>
+				</div>
+				
+				<div id="weather-description" class="col-xs-12 text medium description">
+					Sunny day, with a mild breeze
+				</div>
+				
+				<div class="row">
+					<div id="weather-wind" class="col-xs-6 text right">
+						Wind 5.3 mps
+					</div>
+					<div id="weather-humidity" class="col-xs-6 text left">
+						Humidity 90%
+					</div>
+					<div id="weather-sunrise" class="col-xs-6 text right">
+						Sunrise 10:42
+					</div>
+					<div id="weather-sunset" class="col-xs-6 text left">
+						Sunset 15:34
+					</div>
+				</div>
+				
+				
+				
+			</div>
+		</div>
+		
+		<div class="row">
+			<div id="weather-description" class="contrast text-padding col-md-6 col-md-offset-3 z-3">
+				<p class="text page">
+					This page uses Geolocation from the users browser to get the current lat and long coordinates for the accessing user. These are used to get the current weather forecast where the user is by contacting OpenWeatherAPI.
+				</p>
+			</div>
+		</div>
+	</section>
+	
+	
+	<!-- jQuery -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<!-- bootstrap js -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	
+	<script src="script/weatherScript.js"></script>
+	
+</body>
+</html>
